@@ -24,6 +24,7 @@ namespace WebCalculadoraa.Properties.Controllers
         {
             return a + b;
         }
+
         [HttpGet]
         [Route("resta")]
         public int restaget(int a, int b)
@@ -62,8 +63,8 @@ namespace WebCalculadoraa.Properties.Controllers
             }
         }
         [HttpPost]
-        [Route("div")]
-        public float divpost([FromHeader] float a, [FromHeader] float b)
+        [Route("division")]
+        public float  divisionpost([FromHeader] float a, [FromHeader] float b)
         {
             if (b == 0)
             {

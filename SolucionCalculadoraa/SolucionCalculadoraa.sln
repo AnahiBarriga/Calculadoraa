@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCalculadoraa", "WebCalculadoraa\WebCalculadoraa.csproj", "{633122EC-3004-4A7C-B43E-596E3034A3AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCalculadoraa", "WebCalculadoraa\WebCalculadoraa.csproj", "{633122EC-3004-4A7C-B43E-596E3034A3AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestCalculadoraa", "NUnitTestCalculadoraa\NUnitTestCalculadoraa.csproj", "{FADFD02B-C220-4E77-BC39-0C119E0B9519}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{633122EC-3004-4A7C-B43E-596E3034A3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{633122EC-3004-4A7C-B43E-596E3034A3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{633122EC-3004-4A7C-B43E-596E3034A3AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FADFD02B-C220-4E77-BC39-0C119E0B9519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FADFD02B-C220-4E77-BC39-0C119E0B9519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FADFD02B-C220-4E77-BC39-0C119E0B9519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FADFD02B-C220-4E77-BC39-0C119E0B9519}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
