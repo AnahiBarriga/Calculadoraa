@@ -221,8 +221,8 @@ namespace NUnitTestCalculadoraa
         {
             //Arrange=preparacion
             int a = 3;
-            int b = 4;
-            int esperado = 12;
+            int b = -4;
+            int esperado = -12;
             CalculadoraaController calc = new CalculadoraaController();
 
             //Act=ejecucion
@@ -272,9 +272,9 @@ namespace NUnitTestCalculadoraa
         public void TestMultiGet1()
         {
             //Arrange=preparacion
-            int a = 6;
+            int a = -6;
             int b = 4;
-            int esperado = 24;
+            int esperado = -24;
             CalculadoraaController calc = new CalculadoraaController();
 
             //Act=ejecucion
@@ -305,8 +305,8 @@ namespace NUnitTestCalculadoraa
         public void TestMultiGet3()
         {
             //Arrange=preparacion
-            int a = 6;
-            int b = 9;
+            int a = -6;
+            int b = -9;
             int esperado = 54;
             CalculadoraaController calc = new CalculadoraaController();
 
